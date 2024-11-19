@@ -27,7 +27,7 @@ export default function RootLayout({
             <Analytics />
           </div>
           {/* Footer */}
-          <div className="row-start-4 my-4">
+          <div className="row-start-4 mt-4">
             <Footer />
           </div>
         </div>

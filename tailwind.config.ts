@@ -7,6 +7,15 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    borderWidth: {
+      DEFAULT: '1px',
+      '0': '0px',
+      '2': '2px',
+      '3': '3px',
+      '4': '4px',
+      '6': '6px',
+      '8': '8px',
+    },
     extend: {
       colors: {
         background: "var(--background)",
@@ -15,6 +24,9 @@ export default {
       gridTemplateRows: {
         "layout": 'auto auto 1fr auto'
       },
+      translate: {
+        '1/10': '10%',
+      }
     },
   },
   plugins: [],

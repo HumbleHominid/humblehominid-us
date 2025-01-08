@@ -1,4 +1,4 @@
-import { ArcadiaDiscord, ArcadiaTwitter, Twitter, YouTube, Bluesky } from "@/app/lib/ref-links";
+import { ArcadiaDiscord, ArcadiaTwitter, Twitter, YouTube, Bluesky, ArcadiaBluesky } from "@/app/lib/ref-links";
 import FooterSection from "@/app/ui/footer/footer-section";
 
 export default function Footer() {
@@ -11,6 +11,7 @@ export default function Footer() {
 	const arcadiaLinks = [
 		{ text: 'Discord', href: ArcadiaDiscord },
 		{ text: 'Twitter/X', href: ArcadiaTwitter },
+		{ text: 'Bluesky', href: ArcadiaBluesky },
 	];
 
 	return (
